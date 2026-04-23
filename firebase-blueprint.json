@@ -1,0 +1,27 @@
+{
+  "entities": {
+    "User": {
+      "title": "User Profile",
+      "description": "Information about a user account and their galactic identity.",
+      "type": "object",
+      "properties": {
+        "nickname": { "type": "string" },
+        "username": { "type": "string" },
+        "password": { "type": "string" },
+        "phone": { "type": "string" },
+        "dob": { "type": "string" },
+        "profilePic": { "type": "string" },
+        "profileZoom": { "type": "number" },
+        "galleryPhotos": { "type": "array", "items": { "type": "string" } },
+        "sessionId": { "type": "string" }
+      },
+      "required": ["nickname", "username", "password", "phone", "dob"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "Collection of galactic identities indexed by Firebase Auth UID."
+    }
+  }
+}
