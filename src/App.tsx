@@ -2575,7 +2575,7 @@ export default function App() {
             </button>
             <div className="space-y-10 flex flex-col items-center">
               <div className="space-y-4">
-                <h1 className="text-4xl font-black text-gray-900 tracking-tighter uppercase italic">®GAMURA</h1>
+                <h1 className="text-4xl font-black text-gray-900 tracking-tighter uppercase italic">GAMURA</h1>
                 <div className="w-20 h-1 bg-gray-900 mx-auto" />
               </div>
 

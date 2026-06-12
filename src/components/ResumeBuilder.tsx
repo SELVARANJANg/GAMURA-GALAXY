@@ -535,7 +535,7 @@ export default function ResumeBuilder() {
                    8 professional templates pre-filled with your details. Edit in full screen and download instantly.
                  </p>
                  <span className="inline-block font-['Josefin_Sans'] text-[10px] tracking-[3px] uppercase text-[#c9a84c] bg-[#c9a84c]/10 border border-[#c9a84c]/20 px-4 py-1.5 rounded-full font-bold">
-                   ®GAMURA
+                   GAMURA
                  </span>
                </div>
             </div>
