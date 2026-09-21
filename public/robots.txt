@@ -1,0 +1,5 @@
+# Robots.txt for GAMURA GALAXY (gamuragalaxy.vercel.app)
+User-agent: *
+Allow: /
+
+Sitemap: https://gamuragalaxy.vercel.app/sitemap.xml
